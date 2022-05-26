@@ -21,5 +21,5 @@ while (true) {
 
 
     // 2 integers: rotate power. rotate is the desired rotation angle (should be 0 for level 1), power is the desired thrust power (0 to 4).
-    console.log('0 3');
+    console.log(vSpeed < -39 ? '0 4' : '0 0' );
 }
